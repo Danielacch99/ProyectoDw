@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0%;
+}
+
 header {
     height: 110px;
     width: auto;

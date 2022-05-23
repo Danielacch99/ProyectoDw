@@ -1,0 +1,36 @@
+main{
+    height: 2000px;
+}
+
+main .slider{
+    width: 100%;
+}
+
+main .slider a img{
+    width: 100%;
+}
+
+main .productos1{
+    display: flex;
+    text-align: center;
+}
+
+main .productos1 a img{
+    width: 90%;
+    height: 600px;
+    margin-top: 100px;
+}
+
+main .productos2{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 0 200px;
+}
+
+main .productos2 a img{
+    width: 90%;
+    height: 600px;
+    margin-top: 100px;
+    
+}

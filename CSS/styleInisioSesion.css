@@ -1,0 +1,60 @@
+.SeccionPrincipalIniciarSesion{
+
+    display: flex;
+    justify-content: center;
+}
+.SeccionPrincipalIniciarSesion h2{
+
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    color: rgb(184, 32, 148);
+    font-family: 'Lobster', cursive;
+}
+
+.SeccionPrincipalIniciarSesion .Contenedor{
+
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    background-color: #91b4fa;
+    width: 500px;
+    height: 350px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.SeccionPrincipalIniciarSesion .Contenedor label{
+
+    margin: 15px;
+    font-size: 20px;
+    
+}
+.SeccionPrincipalIniciarSesion .Contenedor input{
+
+    margin: 10px;
+    font-size: 15px;
+    height: 30px;
+    
+}
+.SeccionPrincipalIniciarSesion .ingresar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.SeccionPrincipalIniciarSesion .ingresar #mandar{
+
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #f3a239;
+    border-radius: 5px;
+ 
+}
+
+.SeccionPrincipalIniciarSesion .ingresar #mandar:hover{
+
+    background-color:#dd8007;
+  
+}

@@ -4,6 +4,7 @@
 
 body{
     margin: 0%;
+
 }
 
 header {
@@ -44,7 +45,7 @@ header #nombrePagina p{
 
 nav{
     width: auto;
-    height: 50px;
+    height: 60px;
     display: flex;
     background-color: rgb(255, 124, 124);
 }
@@ -85,7 +86,9 @@ footer p{
 }
 
 main{
-    height: 2000px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
 }
 
 main .slider{

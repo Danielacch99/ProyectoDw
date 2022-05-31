@@ -1,60 +1,88 @@
-.SeccionPrincipalIniciarSesion{
+
+.SeccionPrincipalIniciarSesion main{
 
     display: flex;
-    justify-content: center;
+  
 }
-.SeccionPrincipalIniciarSesion h2{
+
+.SeccionPrincipalIniciarSesion main h2{
 
     text-align: center;
     margin-top: 30px;
-    font-size: 40px;
-    color: rgb(184, 32, 148);
+    font-size: 30px;
+    color: rgb(229, 25, 157);
     font-family: 'Lobster', cursive;
 }
 
-.SeccionPrincipalIniciarSesion .Contenedor{
+.SeccionPrincipalIniciarSesion  main .Contenedor{
 
     display: flex;
     justify-content: center;
-    margin: 70px;
-    background-color: #91b4fa;
-    width: 500px;
-    height: 350px;
+    margin: 40px 545px;
+    background-color: #f7b8d8;
+    width: 400px;
+    height: 385px;
     padding: 30px;
     border-radius: 10px;
 }
 
-.SeccionPrincipalIniciarSesion .Contenedor label{
+.SeccionPrincipalIniciarSesion  .Contenedor label{
 
-    margin: 15px;
+    margin: 20px;
     font-size: 20px;
     
 }
-.SeccionPrincipalIniciarSesion .Contenedor input{
+.SeccionPrincipalIniciarSesion   .Contenedor input{
 
     margin: 10px;
     font-size: 15px;
     height: 30px;
     
 }
-.SeccionPrincipalIniciarSesion .ingresar{
+.SeccionPrincipalIniciarSesion  .ingresar{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 15px;
     
 }
+
 .SeccionPrincipalIniciarSesion .ingresar #mandar{
 
     width: 100px;
     height: 40px;
     font-size: 15px;
-    background-color: #f3a239;
+    background-color: #fcfa7c;
     border-radius: 5px;
  
 }
 
 .SeccionPrincipalIniciarSesion .ingresar #mandar:hover{
 
-    background-color:#dd8007;
+    background-color:#ecea5f;
+  
+}
+
+.SeccionPrincipalIniciarSesion  .registro a{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+
+.SeccionPrincipalIniciarSesion .registro a #mandar{
+
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #fcfa7c;
+    border-radius: 5px;
+ 
+}
+
+.SeccionPrincipalIniciarSesion .registro #mandar:hover{
+
+    background-color:#ecea5f;
   
 }

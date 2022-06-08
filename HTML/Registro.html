@@ -35,22 +35,23 @@
             </h2>
 
             <div class="Contenedor">
-                <form action="../php/conexion.php" method="post">
+                <form action="../php/registrar.php" method="post">
+                    <label for="">Nombre:</label> <br>
+                    <input type="text" name="nombre" required placeholder="Nombre"> <br><br>
+                    <label for="">Apellido 1:</label> <br>
+                    <input type="text" name="apellido1" required placeholder="Apellido 1"> <br><br>
+                    <label for="">Apellido 2:</label> <br>
+                    <input type="text" name="apellido2" required placeholder="Apellido 2"> <br><br>
+                    <label for="">Correo electrónico:</label> <br>
+                    <input type="text" name="email" required placeholder="Correo electrónico"> <br><br>
                     <label for="">Usuario:</label> <br>
-                    <input type="text" placeholder="tu nombre" name="usuario" required> <br><br>
-                    <label for="">Correo Electrónico:</label> <br>
-                    <input type="text" placeholder="tu correo electrónico"name="correoElectronico" required> <br><br>
-                    <label for="">Constraseña:</label> <br>
-                    <input type="text" placeholder="tu contraseña" name="password" required> <br><br>
-                    
-                    <button type="submit" name ="enviar">ENVIAR</button>
-                    
+                    <input type="text" name="usuario" required placeholder="Nombre de usuario"> <br><br>
+                    <label for="">Contraseña:</label> <br>
+                    <input type="password" name="contrasena" required palcejolder = "Contraseña"> <br><br>
+                    <input type="submit" value="Enviar">
                     <div class="ingresar">
                         <a href="../HTML/InicioSesion.html"> <label for="">Crear cuenta</label></a>
                     </div>
-
-                  
-
                 </form>
             </div>
 

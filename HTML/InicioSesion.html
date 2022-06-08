@@ -35,21 +35,19 @@
             </h2>
 
             <div class="Contenedor">
-                <form>
+                <form action="../php/validar.php" method="post">
                     <label for="">Usuario:</label> <br>
-                    <input type="text" name="usuario" id="info" > <br><br>
+                    <input type="text" name="usuario" required placeholder="Usuario o correo electrónico"> <br><br>
                     <label for="">Constraseña:</label> <br>
-                    <input type="password" name="password" id="info" > <br><br>
-                    
-                    <!-- <button id="enviar" onclick="desplegar(event)">ENVIAR</button> -->
+                    <input type="password" name="contrasena" required placeholder="contraseña"> <br><br>
                     <div class="ingresar">
-                        <button id="mandar">Iniciar sesión</button>
+                        <input type="submit" value="Ingresar">
                     </div>
 
                     <label for="">¿No tienes cuenta?</label> <br>
 
                     <div class="registro">
-                        <a href="../HTML/Registro.html"> <label for="">Regístrate</label></a>
+                        <a href="../HTML/Registro.html">Regístrate</a>
                      
                     </div>
 

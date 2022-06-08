@@ -1,0 +1,17 @@
+
+#main_container{
+    width: 500px;
+    height: 1000px;
+    margin: 50px auto;
+
+}
+#main_container table{
+    
+    width: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+    
+}
+td{
+    border: solid 1px;
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styleGeneral.css">
+    <link rel="stylesheet" href="../css/styleVentanaProd.css">
     <title>Pequeño regalo gran sonrisa</title>
 </head>
 <body>
@@ -25,8 +26,31 @@
         <a href="../HTML/InicioSesion.html">Inicio / Registro Sesión</a>
         <a href="../HTML/ProductosFavoritos.html">Favoritos</a>
     </nav>
-    <main>
+    
+    
+        <div class="SeccionPrincipal"> 
 
+        <main>
+            <?php
+                include("../PHP/conexion.php");
+                $imagen = $_GET['imagen'];
+                $consulta = "SELECT * FROM producto WHERE imagen = '$imagen' ";
+                $resultado = mysqli_query($conexion, $consulta);
+                $row=mysqli_fetch_assoc($resultado)
+            ?>
+
+                <div class="producto">
+                    <img src="../Img/<?php echo $row['imagen']; ?>" alt="">
+                </div>
+                    
+                <div class="informacion_producto">
+                   <h1>Infomación del producto: </h1>
+                   <p><?php echo $row['descripcion']; ?></p>
+                   <p>$<?php echo $row['precio']; ?></p>
+                   <p>Disponibilidad: <?php echo $row['cantidad']; ?></p>
+                </div>
+    
+</main>    
     </main>
     <footer>
         <a href="../index.html" ><p>© 2022 SANRIO CO., LTD.  All Rights Reserved.</p></a>

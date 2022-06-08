@@ -1,0 +1,77 @@
+.SeccionPrincipalRegistrarNuevosProductos main{
+
+    display: flex;
+  
+}
+
+.SeccionPrincipalRegistrarNuevosProductos main h2{
+
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(229, 25, 157);
+    font-family: 'Lobster', cursive;
+}
+
+.SeccionPrincipalRegistrarNuevosProductos main .Contenedor{
+
+    display: flex;
+    justify-content: center;
+    margin: 40px 545px;
+    background-color: #f287bd;
+    width: 445px;
+    height: 800px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.SeccionPrincipalRegistrarNuevosProductos  .Contenedor label{
+
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.SeccionPrincipalRegistrarNuevosProductos   .Contenedor input{
+
+    margin: 10px;
+    font-size: 15px;
+    height: 30px;
+    width: 300px;
+    justify-content: center;
+    margin: 6px 20px;
+    
+}
+
+.SeccionPrincipalRegistrarNuevosProductos  .ingresar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+
+
+
+.SeccionPrincipalRegistrarNuevosProductos  .registro a{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+
+
+
+
+.SeccionPrincipalRegistrarNuevosProductos .Contenedor .boton{
+
+    margin: 10px;
+    font-size: 15px;
+    height: 30px;
+    width: 300px;
+    justify-content: center;
+    margin: 15px 40px;
+    text-align: center;
+}
+

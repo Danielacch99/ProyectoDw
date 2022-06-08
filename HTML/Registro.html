@@ -35,15 +35,18 @@
             </h2>
 
             <div class="Contenedor">
-                <form>
+                <form action="../php/conexion.php" method="post">
                     <label for="">Usuario:</label> <br>
-                    <input type="text" name="info" id="info"> <br><br>
+                    <input type="text" placeholder="tu nombre" name="usuario" required> <br><br>
+                    <label for="">Correo Electrónico:</label> <br>
+                    <input type="text" placeholder="tu correo electrónico"name="correoElectronico" required> <br><br>
                     <label for="">Constraseña:</label> <br>
-                    <input type="password" name="info" id="info"> <br><br>
+                    <input type="text" placeholder="tu contraseña" name="password" required> <br><br>
                     
-                    <!-- <button id="enviar" onclick="desplegar(event)">ENVIAR</button> -->
+                    <button type="submit" name ="enviar">ENVIAR</button>
+                    
                     <div class="ingresar">
-                        <a href="/HTML/InicioSesion.html"> <label for="">Crear cuenta</label></a>
+                        <a href="../HTML/InicioSesion.html"> <label for="">Crear cuenta</label></a>
                     </div>
 
                   

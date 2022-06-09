@@ -1,17 +1,40 @@
-
+* {
+    box-sizing: border-box;
+}
+main{
+    height: 4000px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: rgb(255, 203, 222);
+    display: flex;
+    justify-content: center;
+    
+}
 #main_container{
-    width: 500px;
+    width: 600px;
     height: 1000px;
-    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 500px;
 
 }
 #main_container table{
     
+    justify-content: center;
     width: 100%;
     background-color: antiquewhite;
     text-align: center;
     
+    
 }
 td{
     border: solid 1px;
+    width: 200px;
 }
+td a{
+   text-decoration: none;
+   color: rgb(197, 43, 43);
+   font-weight:bold;
+}
+

@@ -8,10 +8,11 @@ $email = $_POST['email'];
 $usuario = $_POST['usuario'];
 $contrasena = $_POST['contrasena'];
 
-$insertar = "INSERT INTO usuario(nombre, apellido1, apellido2, email, contrasena, usuario) 
-VALUES ('$nombre', '$apellido1', '$apellido2', '$email', '$contrasena', '$usuario')";
 
-$verificar_correo = mysqli_query($conexion, "SELECT * FROM usuario WHERE email = '$email'");
+$insertar = "INSERT INTO cliente(nombreCliente, Apellido1, Apellido2, usuario, contrasenia, direccion, fotoPerfil, correoElectronico, telefono) 
+VALUES ('$nombre', '$apellido1', '$apellido2', '$usuario', '$contrasena', '', '', '$email', 1234567890)";
+
+$verificar_correo = mysqli_query($conexion, "SELECT * FROM cliente WHERE correoElectronico = '$email'");
 
 if(mysqli_num_rows($verificar_correo) > 0){
     echo '<script>
@@ -21,7 +22,7 @@ if(mysqli_num_rows($verificar_correo) > 0){
     exit;
 }
 
-$verificar_usuario = mysqli_query($conexion, "SELECT * FROM usuario WHERE usuario = '$usuario'");
+$verificar_usuario = mysqli_query($conexion, "SELECT * FROM cliente WHERE usuario = '$usuario'");
 
 if(mysqli_num_rows($verificar_usuario) > 0){
     echo '<script>

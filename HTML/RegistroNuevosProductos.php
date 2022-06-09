@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styleGeneral.css">
     <link rel="stylesheet" href="../css/styleRegistroNuevosProductos.css">
+    <script src="/js/mi_script.js?v=<?php echo(rand()); ?>"></script>
     <title>Pequeño regalo gran sonrisa</title>
 </head>
 <body>

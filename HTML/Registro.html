@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styleGeneral.css">
     <link rel="stylesheet" href="../css/styleInisioSesion.css">
+    <script src="/js/mi_script.js?v=<?php echo(rand()); ?>"></script>
     <title>Pequeño regalo gran sonrisa</title>
 </head>
 <body>
@@ -23,8 +24,9 @@
         <a href="../HTML/CatalogoAccesorios.html">Accesorios</a>
         <a href="../HTML/CatalogoDecoracion.html">Decoración</a>
         <a href="../HTML/CatalogoRopa.html">Ropa</a>
+        <a href="../HTML/CatalogoZapatos.html">Zapatos</a>
         <a href="../HTML/InicioSesion.html">Inicio / Registro Sesión</a>
-        <a href="../HTML/ProductosFavoritos.html">Favoritos</a>
+     
     </nav>
     <div class="SeccionPrincipalIniciarSesion"> 
 
@@ -35,7 +37,7 @@
             </h2>
 
             <div class="Contenedor">
-                <form action="../php/registrar.php" method="post">
+                <form action="../php/registrarUsuario.php" method="post">
                     <label for="">Nombre:</label> <br>
                     <input type="text" name="nombre" required placeholder="Nombre"> <br><br>
                     <label for="">Apellido 1:</label> <br>

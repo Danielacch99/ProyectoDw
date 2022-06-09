@@ -34,9 +34,10 @@
                     <table>
                                 
                         <tr>
-                            <td><?php echo $row['descripcion']; ?></td>
+                            <td><?php echo $row['nombreProducto']; ?></td>
                             <td><img src="../Img/<?php echo $row['imagen']; ?>" width="50px"></td>
-                            <td>Eliminar</td> 
+                            <td><a href="../PHP/EliminarProducto.php?nombre=<?php echo $row['nombreProducto']; ?>">Eliminar</a></td> 
+                            <td><a href="../PHP/VentanaActualizarProductos.php?nombre=<?php echo $row['nombreProducto']; ?>">Actualizar</a></td> 
                         </tr>
                         
                     </table>

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styleGeneral.css">
     <link rel="stylesheet" href="../css/styleVentanaProd.css">
+    <link rel="stylesheet" href="../CSS/styleVentanaProd.css?v=<?php echo(rand()); ?>" />
+    <script src="/js/mi_script.js?v=<?php echo(rand()); ?>"></script>
     <title>Pequeño regalo gran sonrisa</title>
 </head>
 <body>
@@ -23,20 +25,29 @@
         <a href="../HTML/CatalogoAccesorios.html">Accesorios</a>
         <a href="../HTML/CatalogoDecoracion.html">Decoración</a>
         <a href="../HTML/CatalogoRopa.html">Ropa</a>
+        <a href="../HTML/CatalogoZapatos.html">Zapatos</a>
         <a href="../HTML/InicioSesion.html">Inicio / Registro Sesión</a>
-        <a href="../HTML/ProductosFavoritos.html">Favoritos</a>
+     
     </nav>
     
     
         <div class="SeccionPrincipal"> 
 
         <main>
+        
+
             <?php
                 include("../PHP/conexion.php");
                 $imagen = $_GET['imagen'];
                 $consulta = "SELECT * FROM producto WHERE imagen = '$imagen' ";
                 $resultado = mysqli_query($conexion, $consulta);
-                $row=mysqli_fetch_assoc($resultado)
+                $row=mysqli_fetch_assoc($resultado);
+
+                
+
+               
+           
+
             ?>
 
                 <div class="producto">
